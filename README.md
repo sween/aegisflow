@@ -17,6 +17,10 @@
   <a href="https://play.google.com/store/apps/details?id=com.gitpoint">
     <img alt="Get it on Google Play" title="Google Play" src="http://i.imgur.com/mtGRPuM.png" width="140">
   </a>
+
+  <a href="https://play.google.com/store/apps/details?id=com.gitpoint">
+    <img alt="Get it on Google Play" title="Google Play" src="http://i.imgur.com/mtGRPuM.png" width="140">
+  </a>
 </p>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
