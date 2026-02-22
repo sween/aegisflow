@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  GitHub in your pocket. Built with React Native.
+  OHDSI OSS Implemented on InterSystems IRIS Community
 </p>
 
 <p align="center">
