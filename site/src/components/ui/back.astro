@@ -1,0 +1,50 @@
+---
+// src/pages/index.astro
+const backgroundImage = "https://images.unsplash.com/photo-1475274047050-1d0c0975c63e";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Astro Background</title>
+		<style define:vars={{ backgroundImage: `url(${backgroundImage})` }}>
+			.bg-container {
+				/* Set the background image via the CSS variable */
+				background-image: var(--backgroundImage);
+				
+				/* Ensure it covers the full viewport */
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				
+				/* Full screen height */
+				min-height: 100vh;
+				width: 100%;
+				
+				/* Layout for content on top */
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: white;
+				font-family: sans-serif;
+			}
+
+			.overlay {
+				background: rgba(0, 0, 0, 0.4); /* Darkens the image for readability */
+				padding: 2rem;
+				border-radius: 8px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<main class="bg-container">
+			<div class="overlay">
+				<h1>Stargazing with Astro</h1>
+				<p>A simple full-screen background example.</p>
+			</div>
+		</main>
+	</body>
+</html>
