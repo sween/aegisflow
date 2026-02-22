@@ -53,7 +53,7 @@ Click here to deploy on Vercel:
 
 Click here to deploy on Netlify:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/surjithctly/astroship)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sween/aegisflow)
 
 ## Preview
 
@@ -62,7 +62,7 @@ Click here to deploy on Netlify:
 
 ## Pro Version Preview
 
-![preview](https://github.com/surjithctly/astroship/assets/1884712/25665c02-d2a7-43dc-89b2-34a8ae37ade9)
+![preview](https://github.com/sween/aegisflow/assets/1884712/25665c02-d2a7-43dc-89b2-34a8ae37ade9)
 
 
 ### Pagespeed Score
@@ -79,9 +79,9 @@ Alternatively, you can clone the project directly from this repo to your local s
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/surjithctly/astroship.git myProjectName
+git clone https://github.com/sween/aegisflow.git myProjectName
 # or
-git clone https://github.com/surjithctly/astroship.git .
+git clone https://github.com/sween/aegisflow.git .
 ```
 
 The `.` will clone it to the current directory so make sure you are inside your project folder first.
