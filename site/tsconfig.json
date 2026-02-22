@@ -1,12 +1,18 @@
 {
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "https://sween.github.io/aegisflow/",
     "strictNullChecks": true,
-    "types": ["astro/client"],
+    "types": [
+      "astro/client"
+    ],
     "paths": {
-      "@/*": ["src/*"],
-      "~/*": ["./*"]
+      "@/*": [
+        "src/*"
+      ],
+      "~/*": [
+        "./*"
+      ]
     }
   }
 }
